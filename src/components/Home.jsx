@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   const ocontactme = () => {
-    window.open("https://heroic-gaufre-a3d5ed.netlify.app/Contact", "_blank");
+    window.open("https://fullprofile.netlify.app/Work", "_blank");
   };
 
   const gotonew = () => {
-    window.open("https://heroic-gaufre-a3d5ed.netlify.app/", "_blank");
+    window.open("https://fullprofile.netlify.app/", "_blank");
   };
 
   const homepage = () => {
@@ -24,7 +24,7 @@ const Home = () => {
             className="logo"
             onClick={homepage}
           />
-          <ul>
+          <div>
             <motion.button
               className="hglkn"
               whileTap={{ scale: 0.9 }}
@@ -37,7 +37,7 @@ const Home = () => {
               whileTap={{ scale: 0.9 }}>
               New Portfolio Website
             </motion.button>
-          </ul>
+          </div>
         </nav>
         <div className="detail">
           <h1 className="srg">Hi,</h1>
@@ -48,7 +48,7 @@ const Home = () => {
           </motion.p>
 
           <motion.button className="ager" whileTap={{ scale: 0.8 }}>
-            <a href="https://heroic-gaufre-a3d5ed.netlify.app/Work"></a>
+            <a href="https://fullprofile.netlify.app/About"></a>
             View My work
           </motion.button>
         </div>

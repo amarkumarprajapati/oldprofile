@@ -1,96 +1,91 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
-  }
 
-  .snow{
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    width: 90%;
-    margin: auto;
-  }
+.snow {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: auto;
+}
 
-  .hglkn{
-    position: relative;
-    top: 35px;
-    float: right;
-    font-weight: 600;
-    background-color: #303a6e;
-    border-radius: 6px;
-    border-width: 0;
-    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
-    color: #fff;
-    cursor: pointer;
-    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
-    font-size: 100%;
-    height: 44px;
-    line-height: 1.15;
-    padding: 0 25px;
-    margin-left: 50px;     
-  } 
-.hglkn:hover{
+.hglkn {
+  position: relative;
+  top: 35px;
+  float: right;
+  font-weight: 600;
+  background-color: #303a6e;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  padding: 0 25px;
+  margin-left: 10px;
+}
+.hglkn:hover {
   background-color: white;
   color: #121b47;
 }
 
+#Fld2415 {
+  width: 20%;
+  height: 20vh;
+  position: relative;
+  top: -20px;
+}
+nav {
+  display: flex;
 
+  justify-content: space-between;
+}
+.gfch {
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+}
 
-
-
-
-
-  #Fld2415{
-    width: 20%;
-    height: 20vh;
-    position: relative;
-    top: -20px;
-  }
-  nav{
-    display: flex;
-
-    justify-content: space-between;
-  
-  }
- .gfch{
-    color: #fff;
-    text-decoration: none;
-    font-family: sans-serif;
- }
-  
-
-
-  /* section 2 */
-  .detail{
-     margin-left: 15%;
-     margin-top: 15%; 
-     width: 40%;
-  }
-  .srg{
-    background-color: #ff0000;
-    font-family: sans-serif;
-    line-height: 50px;
-    position: relative;
-    top: -80px;
-    background: linear-gradient(90deg, #ff0000, #ffff00,#ff00f3,#0033ff,#ff00c4,#ff0000);
-    letter-spacing: 5px;
-    word-spacing: 1px;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    animation: animate 10s linear infinite;
-  }
-@keyframes animate{
-  0%{
+/* section 2 */
+.detail {
+  margin-left: 15%;
+  margin-top: 15%;
+  width: 40%;
+}
+.srg {
+  background-color: #ff0000;
+  font-family: sans-serif;
+  line-height: 50px;
+  position: relative;
+  top: -80px;
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #ffff00,
+    #ff00f3,
+    #0033ff,
+    #ff00c4,
+    #ff0000
+  );
+  letter-spacing: 5px;
+  word-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 10s linear infinite;
+}
+@keyframes animate {
+  0% {
     background-position: 0%;
   }
-  100%{
+  100% {
     background-position: 400%;
   }
 }
 
-.fthgbj{
+.fthgbj {
   width: 80%;
   font-family: sans-serif;
   line-height: 40px;
@@ -98,52 +93,50 @@
   top: -80px;
 }
 
+.detail {
+  font-size: 20px;
+  color: #212121;
+  margin-bottom: 5px;
+}
 
-  .detail{
-    font-size: 20px;
-    color: #212121;
-    margin-bottom: 5px;
-  }
-
-
-  span{
-    color: orange;
-  
-  }
-  .ager{
+span {
+  color: orange;
+}
+.ager {
   border-radius: 6px;
   background-color: #121b47;
   color: #fff;
   cursor: pointer;
-  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
   font-size: 100%;
   height: 44px;
   line-height: 1.15;
   margin: -50px 0 0;
   padding: 0 25px;
-  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
   position: relative;
   text-align: center;
   border-width: 0;
-  }
+}
 
-  .ager:hover{
-    background-color: white;
-    color: #121b47;
-    font-weight: 600;
-  }
+.ager:hover {
+  background-color: white;
+  color: #121b47;
+  font-weight: 600;
+}
 
-
-
-
-.hgvh{
+.hgvh {
   background-color: #303a6e;
   border-radius: 6px;
   border-width: 0;
-  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
   color: #fff;
   cursor: pointer;
-  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
   font-size: 100%;
   height: 44px;
   line-height: 1.15;
@@ -153,63 +146,51 @@
   text-align: center;
   right: 250px;
   top: 35px;
- 
 }
-.hgvj{
+.hgvj {
   color: #fff;
   text-decoration: none;
   font-family: sans-serif;
 }
 
-
-
-
-  .image{
-    width: 30%;
-    height: 75%;
-    position: absolute;
-    bottom: 0;
-    right: 200px;
-    top: 150px;
-  }
-  .image img{
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translatex(-50%);
-    transition: bottom 1s, left 1s;
-  }
-  .image:hover .shape{
-    bottom: 50px;
-  }
-
-  .shape{
-    margin-left: 40px;
-  }
-
-
-
-
-
-.boy{
-    position: relative;
-    left: 550px;
-    filter: drop-shadow(5px 5px rgb(87, 87, 87));
+.image {
+  width: 30%;
+  height: 75%;
+  position: absolute;
+  bottom: 0;
+  right: 200px;
+  top: 150px;
+}
+.image img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translatex(-50%);
+  transition: bottom 1s, left 1s;
+}
+.image:hover .shape {
+  bottom: 50px;
 }
 
-  .image:hover .boy{
-    right: 50%;
-  }
-  .logo{
-    width: 20%;
-    height: 100px;
-    cursor: pointer;
-  }
+.shape {
+  margin-left: 40px;
+}
 
+.boy {
+  position: relative;
+  filter: drop-shadow(10px 10px 10px rgb(87, 87, 87));
+}
 
-  .goto:hover{
-     color: black;
-  }
- 
-  
+.image:hover .boy {
+  right: 50%;
+}
+.logo {
+  width: 20%;
+  height: 100px;
+  cursor: pointer;
+}
+
+.goto:hover {
+  color: black;
+}
